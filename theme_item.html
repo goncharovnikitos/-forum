@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Темы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="content">
+    <h1>Тема "Название темы"</h1>
+    <div class="user_block">Иван Иванов <a href="index.html">Выйти</a></div>
+
+    <div class="author_info">
+        <span class="author">Автор</span>
+        <span class="created">01.01.2019 12:34</span>
+                <span class="like_count">11</span>
+    </div>
+    <div class="theme_full_item">
+        <div class="text">
+            Описание темы на произвольную тему Описание темы на произвольную темуОписание темы на произвольную
+            темуОписание темы на произвольную темуОписание темы на произвольную темуОписание темы на произвольную
+            темуОписание темы на произвольную темуОписание темы на произвольную темуОписание темы на произвольную
+            темуОписание темы на произвольную тему
+        </div>
+    </div>
+
+    <a class="button add_new_comment" href="#" onclick="document.getElementById('block_new_comment').style.display = 'block'; return false;">Добавить комментарий</a>
+    <div id="block_new_comment">
+        <form action="theme_item.html">
+            <div class="text"><label id="comment_text_label" for="comment_text">Текст комментария: </label><textarea id="comment_text" name="text"></textarea></div>
+            <div class="submit"><input type="submit" value="Добавить" onclick="document.getElementById('block_new_comment').style.display = 'none'; return false;"></div>
+        </form>
+    </div>
+
+    <div class="comment_list">
+        <div class="item">
+            <div class="text">Длинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный
+                предлинный комментарий в несколько строк</div>
+            <div class="author_info">
+                <span class="author">Автор</span>
+                <span class="created">01.01.2019 12:34</span>
+                <span class="like_count">11</span>
+                <span class="actions">
+                    <a href="#" class="like active" onclick="return like_me(this)">Лайкнуть <i></i> </a><a href="#" class="edit">Изменить</a><a href="#" class="delete">Удалить</a>
+                </span>
+            </div>
+        </div>
+        <div class="item">
+            <div class="text">Длинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный
+                предлинный комментарий в несколько строк</div>
+            <div class="author_info">
+                <span class="author">Автор</span>
+                <span class="created">01.01.2019 12:34</span>
+                <span class="like_count">11</span>
+                <span class="actions">
+                    <a href="#" class="like">Лайкнуть</a><a href="#" class="edit">Изменить</a><a href="#" class="delete">Удалить</a>
+                </span>
+            </div>
+        </div>
+        <div class="item">
+            <div class="text">Длинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный
+                предлинный комментарий в несколько строк</div>
+            <div class="author_info">
+                <span class="author">Автор</span>
+                <span class="created">01.01.2019 12:34</span>
+                <span class="like_count">11</span>
+                <span class="actions">
+                    <a href="#" class="like">Лайкнуть</a><a href="#" class="edit">Изменить</a><a href="#" class="delete">Удалить</a>
+                </span>
+            </div>
+        </div>
+        <div class="item">
+            <div class="text">Длинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный предлинный комментарий в несколько строкДлинный
+                предлинный комментарий в несколько строк</div>
+            <div class="author_info">
+                <span class="author">Автор</span>
+                <span class="created">01.01.2019 12:34</span>
+                <span class="like_count">11</span>
+                <span class="actions">
+                    <a href="#" class="like">Лайкнуть</a><a href="#" class="edit">Изменить</a><a href="#" class="delete">Удалить</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="show_more button">
+        <a href="#">Показать еще</a>
+    </div>
+</div>
+<script>
+    var like_me = function(el){ // like    like active
+        (el.className=='like')? el.className='like active': el.className='like';
+        return false; 
+    };
+
+    var user = {
+        login: 'Anton',
+        isAdmin: function(){
+            return this.login == 'admin'; 
+        }
+    };
+</script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+.content {
+    margin: 10px 30px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.central_form {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.title, .submit {
+    text-align: center;
+}
+
+form input {
+    margin: 10px;
+}
+
+form label {
+    width: 80px;
+    display: inline-block;
+}
+
+.theme_list {
+    display: inline-block;
+}
+
+.theme_list .item {
+    width: 29%;
+    float: left;
+    margin-right: 3%;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.theme_list .total_comment_count {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.comment_list .item .like_count {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.theme_list .item .link {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.create_new {
+    position: absolute;
+    top: 0;
+    margin: 10px;
+    padding: 5px;
+    left: 20%;
+    font-weight: bold;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.user_block {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.button {
+    margin: 10px auto;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.show_more {
+    width: 100px;
+}
+
+.comment_list .item {
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.comment_list .item .actions a {
+    margin-right: 10px;
+    position: relative;
+}
+
+
+.comment_list .item .actions a img {
+    /* max-width: 30px; */
+    height: 12px;
+}
+
+.comment_list .item .actions a.like i {
+    background: url(images/like.svg);
+    height:12px;
+    width:12px;
+    display:inline-block;
+}
+
+.comment_list .item .actions a.like.active i {
+    background: url(images/like_active.svg);
+}
+
+
+.add_new_comment {
+    margin: 10px 0;
+}
+
+#block_new_comment {
+    display: none;
+    width: 100%;
+}
+
+#block_new_comment textarea {
+    width: 100%;
+}
+
+#comment_text_label {
+    width: 200px;
+}
