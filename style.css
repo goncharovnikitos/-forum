@@ -19,6 +19,7 @@
 странно, если убрать ширину и длину ,  уйдет центрирование?
 
 }*/
+
 .fl{
 display:flex;
 flex-direction:row;
@@ -55,9 +56,21 @@ form label {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+/*.theme_list .item {
+    width: 29%;
+    float: left;  
+    margin-right: 3%;
+    position: relative;
+    margin-right:10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}*/
 @media (min-width: 200px) and (max-width: 800px){
     .theme_list .item {
-        width: 15%;/*в зависимости от размера экрана*/
+        width: 70%;/*в зависимости от размера экрана*/
         /*float: left;  
         margin-right: 3%;
         position: relative;*/
@@ -68,36 +81,58 @@ form label {
         padding: 5px;
     }
  }
-.theme_list .item {
-    width: 29%;/*в зависимости от размера экрана*/
-    /*float: left;  
-    margin-right: 3%;
-    position: relative;*/
-    margin-right:10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    padding: 5px;
-}
+ @media (min-width: 800px) and (max-width: 1280px){
+    .theme_list .item {
+        width: 35%;/*в зависимости от размера экрана*/
+        /*float: left;  
+        margin-right: 3%;
+        position: relative;*/
+        margin-right:10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+ }
 
+ @media (min-width: 1280px) {
+    .theme_list .item {
+        width: 29%;/*в зависимости от размера экрана*/
+        /*float: left;  
+        margin-right: 3%;
+        position: relative;*/
+        margin-right:10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+ }
 .theme_list .total_comment_count {
     border: 1px solid #cccccc;
     border-radius: 10px;
     padding: 3px;
 }
 
+.theme_full_item{
+    margin:7px 0;
+}
+.comment_list{
+    margin:7px 0;
+}
 .comment_list .item .like_count {
     border: 1px solid #cccccc;
     border-radius: 10px;
     padding: 3px;
 }
 
-.theme_list .item .link {
+/*.theme_list .item .link {
     position: absolute;
     display: block;
     height: 100%;
     width: 100%;
-}
+}*/
+
 
 .create_new {
     /*position: absolute;
@@ -110,11 +145,11 @@ form label {
     border-radius: 5px;
 }
 
-.user_block {
+/*.user_block {
     position: absolute;
     right: 0;
     top: 0;
-}
+}*/
 
 .button {
     margin: 10px;
